@@ -7,15 +7,15 @@
             a = Number(a)
             var b = document.getElementById("textfield2").value
             b = Number(b)
-            var c = a / (a + b) * 100;
+            var c = b / (a / 100 * a / 100);
             document.getElementById("textfield3").value = c;
         }
     </script>
 </head>
 
 <body>
-    <p>身長:<input id="textfield1" type="text"></p>
-    <p>体重:<input id="textfield2" type="text"></p>
+    <p>身長:<input id="textfield1" type="text">cm</p>
+    <p>体重:<input id="textfield2" type="text">kg</p>
 
     <button onclick="calc()">計算</button>
 
