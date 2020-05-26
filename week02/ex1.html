@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <script>
+        function calc() {
+            var a = document.getElementById("textfield1").varue
+            a = Number(a)
+            var b = document.getElementById("textfield2").varue
+            b = Number(b)
+            var c = 100 / a;
+            document.getElementById("textfield3").varue = c;
+        }
+    </script>
+</head>
+
+<body>
+    <p>勝数:<input id="textfield1" type="text"></p>
+    <p>負数:<input id="textfield2" type="text"></p>
+    <button onclick="calc()">計算</button>
+
+    <p>勝率は<input id="textfield3" type="text">です</p>
+</body>
+
+</html>
