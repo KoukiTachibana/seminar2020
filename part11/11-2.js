@@ -1,13 +1,14 @@
-function buttonPressed() {
 
-    var x = document.getElementById('aaaa').Value;
-    var html = "";
+function BP() {
+    var x = document.getElementById('in').Value;
+    x = Number(x);
+
+    var html = '';
     var z = 1;
-    for (var i = 1; i <= x; i++) {
-        var kai = i * z
-        z = kai
-        html = html + '< li >' + kai + '</li>';
-    }
-    document.getElementById('ran').innerHTML = html;
 
+    for (var i = 1; i <= x; i++) {
+        z = i * z;
+        html = html + '<li>' + z + '</li>';
+    }
+    document.getElementById('list').innerHTML = html;
 }
