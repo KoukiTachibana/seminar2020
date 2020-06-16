@@ -5,7 +5,7 @@ function buttonAPressed() {
     he = Math.floor(Math.random() * 300);
 
     var ctx = document.getElementById('canvas1').getContext('2d');
-    ctx.clearRect(0, 0, 400, 300);
+
 
     ctx.fillStyle = '#0000FF';
 
@@ -14,6 +14,8 @@ function buttonAPressed() {
     ctx.fill();
 }
 function buttonBPressed() {
-    var ctx = document.getElementsById('canvas1').getContext('2d');
+
+    var ctx = document.getElementById('canvas1').getContext('2d');
     ctx.clearRect(0, 0, 400, 300);
+
 }
