@@ -1,6 +1,6 @@
 
 function BP() {
-    var x = document.getElementById('in').Value;
+    var x = document.getElementById('in').value;
     x = Number(x);
 
     var html = '';
